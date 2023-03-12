@@ -1,0 +1,21 @@
+body {
+  background-color: #faf5df;
+}
+
+.container {
+  margin: auto;
+  max-width: 70%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+}

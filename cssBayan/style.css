@@ -25,6 +25,14 @@ img {
   max-width: 100vh;
 }
 
+.icon {
+  visibility: hidden;
+}
+
+.section:focus .icon {
+  transform: rotate(90deg);
+}
+
 @media (hover: hover) {
   .container {
     cursor: pointer;
@@ -32,5 +40,13 @@ img {
 
   .section:hover .img {
     max-width: 100vh;
+  }
+
+  .section:hover .icon {
+    transform: rotate(90deg);
+  }
+
+  .container:hover .icon {
+    visibility: visible;
   }
 }

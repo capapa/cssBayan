@@ -25,11 +25,13 @@ h1 {
 }
 
 .img img {
-  max-width: 80%;
+  /* max-width: 80%; */
+  width: 30%;
 }
 
 .section {
   border-top: 0.1rem solid gray;
+  outline: none;
 }
 
 .section:focus .img {

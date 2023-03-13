@@ -31,6 +31,7 @@ h1 {
 
 .section {
   border-top: 0.1rem solid gray;
+  color: blue;
   outline: none;
 }
 
@@ -44,6 +45,10 @@ h1 {
 
 .section:focus .icon {
   transform: rotate(90deg);
+}
+
+.section:focus .header {
+  color: black;
 }
 
 .section:active .header {
@@ -65,6 +70,10 @@ h1 {
 
   .section:hover .icon {
     transform: rotate(90deg);
+  }
+
+  .container:hover .section {
+    color: black;
   }
 
   .container:hover .icon {

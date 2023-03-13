@@ -46,6 +46,14 @@ h1 {
   transform: rotate(90deg);
 }
 
+.section:active .header {
+  color: blue;
+}
+
+.section:active .img {
+  filter: opacity(0.5);
+}
+
 @media (hover: hover) {
   .container {
     cursor: pointer;
